@@ -1,0 +1,27 @@
+# Theme metadata
+name = "Nord"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+# primary = "#5E81AC" # nord10 (Dark blue; main accent color)
+primary = "#2E3440" # nord0 (Black; main accent color)
+
+# Menu
+menu_primary = "#FFFFFF" # White background
+# menu_text = "#3B4252" # nord1 (Dark gray)
+menu_text = "#2E3440" # nord0 (Black)
+# menu_text_active = "#8FBCBB" # nord7 (Green accent)
+menu_text_active = "#BF616A" # nord11 (Red accent)
+menu_title = "#2E3440" # nord0 (Black)
+
+# Home sections
+# home_section_odd = "#ECEFF4" # nord6 (Background)
+home_section_odd = "#FFFFFF" # nord6 (Background)
+home_section_even = "#FFFFFF" # nord5 (Slightly darker background)
+
+# Dark mode primary color for links text
+[dark]
+  link = "#FFFFFF"
+  link_hover = "#FFFFFF"
