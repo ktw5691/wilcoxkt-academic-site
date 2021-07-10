@@ -5,55 +5,55 @@
 
 # Appearance
 
-theme: minimal
+theme: my_theme_nord
 day_night: true
-font: ''
-font_size: L
+font: my_font_set_nord
+# Speed optimized, Google free alternative
+# font: native
+font_size: L # Use L for optimal accessibility metric on Lighthouse
 
 # SEO
 
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
+description: Personal website of Kenneth Tyler Wilcox
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: kwilcox3@nd.edu
+phone: ''
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 390 Corbett Family Hall, Department of Psychology, University of Notre Dame
+  city: Notre Dame
+  region: IN
+  postcode: '46556'
   country: United States
   country_code: US
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude: ''
+  longitude: ''
+directions:
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+appointment_url: 'https://kwilcox3.youcanbook.me'
 contact_links:
-  - icon: twitter
+  - icon: google-scholar
+    icon_pack: ai
+    name: Google Scholar
+    link: https://scholar.google.com/citations?user=GllwRa8AAAAJ&hl
+  - icon: researchgate
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
+    name: ResearchGate
+    link: https://www.researchgate.net/profile/Kenneth_Wilcox
+  - icon: github
     icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: Github
+    link: https://github.com/ktw5691
+  - icon: orcid
+    icon_pack: ai
+    name: ORCiD
+    link: https://orcid.org/0000-0003-3969-0427
 
 # Site header
 
@@ -74,14 +74,18 @@ address_format: en-us
 
 # Site features
 
-highlight: true
+highlight: false
 highlight_languages:
   - r
+  - cpp
+  - python
+  - stan
+# highlight_style: github
 math: false
 diagram: false
 privacy_pack: false
 edit_page:
-  repo_url: ''
+  repo_url: 'https://github.com/ktw5691/academic-kickstart'
   content_dir: ''
   repo_branch: main
   editable:
@@ -90,13 +94,13 @@ edit_page:
     book: false
 show_related:
   book: true
-  page: false
+  page: true
   post: true
   project: true
   publication: true
   event: true
-reading_time: true
-section_pager: false
+reading_time: false
+section_pager: true
 docs_section_pager: true
 sharing: true
 copyright_license:
@@ -105,7 +109,7 @@ copyright_license:
   share_alike: true
   allow_commercial: false
   notice: 'This work is licensed under {license}'
-abstract_length: 135
+abstract_length: 200
 plugins_js: []
 avatar:
   gravatar: false
@@ -115,8 +119,8 @@ publications:
   citation_style: apa
 projects:
   post_view: 2
-  publication_view: 2
-  talk_view: 2
+  publication_view: 4
+  talk_view: 4
 breadcrumb:
   page_types:
     book: true
@@ -141,18 +145,22 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
   api_key: ''
+  engine: ''
   zoom: 15
 marketing:
-  google_analytics: ''
+  google_analytics: UA-92616491-2
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
-  branch: master
+  branch: main
   local_backend: false
+  netlify_cms: true
 icon:
   pack:
     ai: true
+security.csp:
+  policy: ''
+  report_only: false
