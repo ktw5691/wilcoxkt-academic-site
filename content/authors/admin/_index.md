@@ -54,11 +54,11 @@ social:
   link: https://github.com/ktw5691
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/files/resume.pdf`, enable `ai` icons in `params.toml`,
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: files/wilcox-kenneth-tyler-curriculum-vitae.pdf
+  link: uploads/wilcox-kenneth-tyler-cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: kwilcox3@nd.edu
