@@ -68,7 +68,11 @@ $$y_d \sim Normal \left( \eta\_{x\_1} x\_{1d} + \eta\_{x\_2} x\_{2d} + \sum\_{k=
 
 where $x\_{1d}$ and $x\_{2d}$ are observed scores on predictor $x_1$ and $x_2$, respectively, and we denote regression coefficients by $\eta\_j$. We generated latent empirical topic probabilities $\bar{z}\_{1d}, \ldots, \bar{z}\_{Kd}$ from the process in Figure 1 with $\alpha$ and $\gamma$ set to vectors of ones. We generated independent predictors $x\_{1d} \sim \text{Normal}(0, 1)$ and $x\_{2d} \sim \text{Bernoulli}(0.5)$ such that $x_1$ and $x_2$ were independent of the topics. We manipulated the number of topics (2 or 5), number of documents (50 and 150), vocabulary size (500 and 1,000), average document length (75 and 250 words), effect size for $\eta\_{\bar{z}_1}$ (multiple partial correlation of 0% and 13.04% (“medium” effect; Cohen, 1988)), and $\Sigma\_0$ ($I$ and $1,000 I$ where $I$ is an identity matrix). We fixed $\eta\_{x_1}$ and $\eta\_{x_2}$ to “medium” effects, $\eta\_{\bar{z}_k}$ to 0 for $k > 1$, and the total variance of $y$ to 1. Through the simulation, we found that the regression coefficient estimates were unbiased in all conditions except for estimates of $\eta\_{\bar{z}_1}$, which were negatively biased toward zero when modeling shorter documents with a five-topic model. Type I error rates for $\eta\_{\bar{z}_1}, \ldots, \eta\_{\bar{z}_K}$ were close to the nominal rate of 5% except when modeling shorter documents with a five-topic model, for which Type I error rates were conservative (< 2%). Power for $\eta\_{x_1}$ and $\eta\_{x_2}$ always exceeded 80%. Power for $\eta\_{\bar{z}_1}$ exceeded 80% for a two-topic model in all conditions and for a five-topic model with larger sample sizes. This study is the first to propose a joint model of textual data and prediction of an outcome using both observed predictors and latent topics to represent textual data. Our model allows for one-stage estimation of the latent variable model for the text and a regression model linking the latent variables and other predictors to an outcome. Our simulation results suggest that the proposed Gibbs sampler for SLDAX yields accurate estimates of the regression coefficients, well-controlled Type I error rates, and desirable power even with small sample sizes and short documents while protecting against over-fitting. These results provide useful sample size and document length guidelines for researchers considering incorporating textual data into their studies while the R package facilitates the use of the SLDAX model.
 
-*Figure 2.* Generative process for the SLDAX model.
+**Figure 1.** Directed acyclic graphical representation of the SLDAX model
+
+{{< figure library="true" src="sldax-dag.png" title="" >}}
+
+**Figure 2.** Generative process for the SLDAX model.
 
 We assume a vocabulary of V unique words and let $\bar{z}_{kd} = N_d^{-1} \sum\_n I(z\_{dn} = k)$ be the empirical topic proportions where $I()$ is an indicator function equal to 1 if its predicate is true and 0 otherwise.
 
@@ -91,8 +95,6 @@ We assume a vocabulary of V unique words and let $\bar{z}_{kd} = N_d^{-1} \sum\_
  - 4.2.2) Draw word $w\_{dn} | z\_{dn} = k \sim \text{Categorical}(\beta_k)$,
 
 - 4.3) Draw outcome $y_d \sim \text{Normal} \left(\sum\_{j=1}^p \eta_j x\_{jd} + \sum\_{k=1}^K \eta\_{p+k} \bar{z}\_{kd}, \sigma^2 \right)$.
-
-{{< figure library="true" src="sldax-dag.png" title="Directed acyclic graphical representation of the SLDAX model." >}}
 
 # References
 Blei, D. M., & McAuliffe, J. D. (2010). Supervised topic models. *ArXiv:1003.0783 [Stat]*. Retrieved from http://arxiv.org/abs/1003.0783
