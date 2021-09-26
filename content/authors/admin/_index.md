@@ -6,7 +6,7 @@ title: Kenneth Tyler Wilcox
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate in Quantitative Psychology
+role: Ph.D. Student in Quantitative Psychology
 
 # Organizations/Affiliations
 organizations:
@@ -14,13 +14,16 @@ organizations:
   url: http://psychology.nd.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Bayesian statistics, multilevel modeling, integrative data analysis, topic modeling, statistical programming, and cognition.
+bio: My research interests include Bayesian statistics, multilevel modeling, integrative data analysis, meta-analysis, topic modeling, mixture modeling, statistical programming, and cognition and clinical psychology.
 
 # Interests to show in About widget
 interests:
 - Integrative data analysis
-- Text mining
+- Meta-analysis
+- Topic modeling
+- Mixture modeling
 - Statistical software development
+- Cognitive and clinical psychology
 
 # Education to show in About widget
 education:
@@ -67,4 +70,4 @@ email: kwilcox3@nd.edu
 highlight_name: false
 ---
 
-Kenneth is a Ph.D. candidate in Quantitative Psychology at the University of Notre Dame. His research is currently focused in two streams: integrative data analysis and text mining. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing research in psychology and education. He currently works with Dr. Lijuan (Peggy) Wang in the [Lab for Developmental and Health Methodology](https://ldhrm.nd.edu) researching integrative data analysis methods. He collaborates on applied research on comparative cognition in a variety of species with Dr. Caroline DeLong's [Comparative Cognition and Perception Lab](https://www.rit.edu/delonglab/).
+Kenneth is a Ph.D. candidate in Quantitative Psychology at the University of Notre Dame. His research is currently focused in two streams: integrative data analysis and text mining. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing research in psychology and education. He currently works with Dr. Lijuan (Peggy) Wang in the [Lab for Developmental and Health Methodology](https://ldhrm.nd.edu) researching integrative data analysis methods. He also is interested in substantive research: with Dr. Caroline DeLong's [Comparative Cognition and Perception Lab](https://www.rit.edu/delonglab/), he contributes to studies in comparative cognition study focused on visual perception and object recognition in a variety of species; with Dr. Brooke Ammerman's [Affect, Suicide, Self-Injury, and Social Triggers Lab](https://assistlab.nd.edu), he contributes to studies of non-suicidal and suicidal thoughts and behaviors; with [Dr. Bradley Gibson](https://psychology.nd.edu/faculty/bradley-s-gibson/)'s Lab, he contributes to studies of visual working memory.
