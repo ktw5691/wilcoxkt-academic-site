@@ -1,6 +1,11 @@
+library/
+local/
+cellar/
+lock/
+python/
+staging/
 # IDEs
 .idea/
-
 # Hugo
 /resources/
 /public/
@@ -9,7 +14,8 @@ node_modules/
 .Rproj.user
 .DS_Store
 Thumbs.db
-
+# Hugo
+.hugo_build.lock
 # R
 .Rhistory
 .Rprofile
