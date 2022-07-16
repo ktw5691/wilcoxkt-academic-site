@@ -6,12 +6,12 @@ title: Kenneth Tyler Wilcox
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Student in Quantitative Psychology
+role: Postdoctoral Associate
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Psychology, University of Notre Dame
-  url: http://psychology.nd.edu/
+- name: Department of Psychology, Cornell University
+  url: 'http://psychology.cornell.edu/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Bayesian statistics, multilevel modeling, integrative data analysis, meta-analysis, topic modeling, mixture modeling, statistical programming, and cognition and clinical psychology.
@@ -28,10 +28,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: MS in Applied Statistics
+  - course: PhD Quantitative Psychology
+    institution: University of Notre Dame
+    year: 2022
+  - course: MS Applied Statistics
     institution: Rochester Institute of Technology
     year: 2017
-  - course: BS in Psychology
+  - course: BS Psychology
     institution: Rochester Institute of Technology
     year: 2013
 
@@ -45,16 +48,16 @@ social:
   link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: orcid
   icon_pack: ai
-  link: https://orcid.org/0000-0003-3969-0427
+  link: 'https://orcid.org/0000-0003-3969-0427'
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=GllwRa8AAAAJ&hl
+  link: 'https://scholar.google.com/citations?user=GllwRa8AAAAJ&hl'
 - icon: researchgate
   icon_pack: fab
-  link: https://www.researchgate.net/profile/Kenneth_Wilcox
+  link: 'https://www.researchgate.net/profile/Kenneth_Wilcox'
 - icon: github
   icon_pack: fab
-  link: https://github.com/ktw5691
+  link: 'https://github.com/ktw5691'
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
