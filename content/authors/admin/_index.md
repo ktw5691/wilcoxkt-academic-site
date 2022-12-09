@@ -20,10 +20,10 @@ bio: My research interests include Bayesian statistics, multilevel modeling, int
 interests:
 - Integrative data analysis
 - Meta-analysis
+- Multilevel modeling
 - Topic modeling
-- Mixture modeling
 - Statistical software development
-- Cognitive and clinical psychology
+- Developmental affective science
 
 # Education to show in About widget
 education:
@@ -58,6 +58,9 @@ social:
 - icon: github
   icon_pack: fab
   link: 'https://github.com/ktw5691'
+- icon: twitter
+  icon_pack: fab
+  link: 'https://twitter.com/KTylerWilcox'
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -67,10 +70,10 @@ social:
   link: uploads/wilcox-kenneth-tyler-cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: kwilcox3@nd.edu
+email: ktwilcox@cornell.edu
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
-Kenneth is a Ph.D. candidate in Quantitative Psychology at the University of Notre Dame. His research is currently focused in two streams: integrative data analysis and text mining. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing research in psychology and education. He currently works with Dr. Lijuan (Peggy) Wang in the [Lab for Developmental and Health Methodology](https://ldhrm.nd.edu) researching integrative data analysis methods. He also is interested in substantive research: with Dr. Caroline DeLong's [Comparative Cognition and Perception Lab](https://www.rit.edu/delonglab/), he contributes to studies in comparative cognition study focused on visual perception and object recognition in a variety of species; with Dr. Brooke Ammerman's [Affect, Suicide, Self-Injury, and Social Triggers Lab](https://assistlab.nd.edu), he contributes to studies of non-suicidal and suicidal thoughts and behaviors; with [Dr. Bradley Gibson](https://psychology.nd.edu/faculty/bradley-s-gibson/)'s Lab, he contributes to studies of visual working memory.
+Kenneth is a postdoctoral associate in the Department of Psychology and the Center for Integrative Developmental Science at Cornell University. He received his Ph.D. in Quantitative Psychology at the University of Notre Dame. His research is currently focused in two streams: integrative data analysis and text mining. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing psychological and health research. He currently works with Dr. Anthony Ong in the [Center for Integrative Developmental Science](https://www.human.cornell.edu/cids) studying affective mechanisms to improve health outcomes across the lifespan.

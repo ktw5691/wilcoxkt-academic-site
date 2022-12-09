@@ -25,18 +25,18 @@ content:
       captcha: true
 
 # Contact details (edit or remove options as required)
-email: kwilcox3@nd.edu
+email: ktwilcox@cornell.edu
 phone: ''
 address:
-  street: 390 Corbett Family Hall, Department of Psychology, University of Notre Dame
-  city: Notre Dame
-  region: IN
-  postcode: '46556'
+  street: G201 Martha Van Rensselaer Hall, Department of Psychology, Cornell University
+  city: Ithaca
+  region: NY
+  postcode: '14853'
   country: United States
   country_code: US
 office_hours:
   - ''
-appointment_url: 'https://kwilcox3.youcanbook.me'
+# appointment_url: 'https://kwilcox3.youcanbook.me'
 contact_links:
   - icon: twitter
     icon_pack: fab
