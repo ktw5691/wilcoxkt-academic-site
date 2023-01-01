@@ -21,7 +21,7 @@ marketing:
     description: Personal website of Dr. Kenneth Tyler Wilcox
     twitter: 'KTylerWilcox'
   analytics:
-    google_analytics: 'UA-92616491-2'
+    google_analytics: ''
     baidu_tongji: ''
   verification:
     google: ''
