@@ -67,7 +67,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/wilcox-kenneth-tyler-cv.pdf
+  link: uploads/wilcox-kenneth-tyler-curriculum-vitae.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ktwilcox@cornell.edu
