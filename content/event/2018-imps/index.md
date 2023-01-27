@@ -1,7 +1,7 @@
 ---
 title: A Bayesian hidden topic Markov model for latent linguistic structure
 event: 83rd Annual Meeting of the Psychometric Society
-event_url: https://www.psychometricsociety.org/content/imps-2018
+event_url: https://www.psychometricsociety.org/imps-2018
 location: Columbia University
 address:
   street:

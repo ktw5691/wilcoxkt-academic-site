@@ -1,7 +1,7 @@
 ---
 title: Visual object categorization in goldfish (Carassius auratus) 
 event: RIT Graduate Showcase
-event_url: https://www.rit.edu/academicaffairs/graduateshowcase/2020-virtual-presentations
+event_url: https://www.rit.edu/academicaffairs/graduateshowcase/2020-presentation-winners-list
 
 location: Rochester Institute of Technology
 address:

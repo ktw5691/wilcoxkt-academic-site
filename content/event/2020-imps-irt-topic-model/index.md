@@ -3,7 +3,7 @@ draft: false
 
 title: A joint modeling framework for item response and topic models
 event: 85th Annual Meeting of the Psychometric Society
-event_url: https://www.psychometricsociety.org/content/imps-2020
+event_url: https://www.psychometricsociety.org/imps-2020
 
 location: University of Maryland
 address:
