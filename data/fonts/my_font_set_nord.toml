@@ -3,9 +3,9 @@ name = "My Theme Nord"
 
 # Optional Google font URL
 # google_fonts = "Montserrat:400,400italic,700|Fira+Code"
-google_fonts = "family=Montserrat:ital,wght@0,400;0,700;1,400&family=Fira+Code:wght@400;700"
+google_fonts = "family=Fira+Code:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700"
 # Font families
 heading_font = "Montserrat"
 body_font = "Montserrat"
-nav_font = "Montserrat"
+nav_font = "Fira Code"
 mono_font = "Fira Code"
