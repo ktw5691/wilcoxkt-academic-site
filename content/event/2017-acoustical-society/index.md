@@ -33,26 +33,36 @@ lastmod: 2020-05-19T12:10:22-04:00
 featured: false
 draft: false
 
-# Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "penguins.jpg"
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: "Smart"
-  preview_only: false
-
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-- comparative-cognition
----
+projects: ["comparative-cognition"]
 
-{{< figure library="true" src="penguins.jpg" title="" >}}
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  # caption: ""
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: penguins.jpg  # Uncomment to load an image from `assets/media/` instead.
+
+# Show recommendations for related content?
+show_related: true
+
+# Show breadcrumb navigation?
+show_breadcrumb: true
+
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
+---

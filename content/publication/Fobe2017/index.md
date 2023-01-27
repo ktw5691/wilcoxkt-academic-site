@@ -39,40 +39,37 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 url_pdf: "https://asa.scitation.org/doi/pdf/10.1121/2.0000773?class=pdf"
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "penguins.jpg"
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: ''
-#   focal_point: "Smart"
-#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- comparative-cognition
+projects: ["comparative-cognition"]
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  # caption: ""
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: penguins.jpg  # Uncomment to load an image from `assets/media/` instead.
+
+# Show recommendations for related content?
+show_related: true
+
+# Show breadcrumb navigation?
+show_breadcrumb: true
+
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
 ---
-
-{{< figure library="true" src="penguins.jpg" title="" >}}
