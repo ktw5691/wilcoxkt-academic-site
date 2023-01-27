@@ -2,9 +2,7 @@
 title: "Predicting and preventing participant crosstalk: A multi-institutional investigation"
 
 event: "Second International Conference on Emerging Research Paradigms in Business and Social Sciences"
-event_url: https://www.mdx.ac.ae/research/conferences-and-
-events/past/emerging-research-paradigms-in-
-business-and-social-sciences
+event_url: https://www.mdx.ac.ae/research/conferences-and-events/past/emerging-research-paradigms-in-business-and-social-sciences
 
 location: Address Hotel
 address:
