@@ -37,40 +37,37 @@ featured: false
 # - name: ""
 #   url: ""
 url_pdf: http://scholarworks.rit.edu/theses/9443/
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "htmm-dag.png"
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: 'Hidden topic Markov model.'
-#   focal_point: "Center"
-#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- topic-model
+projects: ["topic-model"]
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  caption: "Directed acyclic graph of the HTMM model."
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: htmm-dag.png  # Uncomment to load an image from `assets/media/` instead.
+
+# Show recommendations for related content?
+show_related: true
+
+# Show breadcrumb navigation?
+show_breadcrumb: true
+
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
 ---
-
-{{< figure library="true" src="htmm-dag.png" title="Directed acyclic graph of the HTMM model." >}}

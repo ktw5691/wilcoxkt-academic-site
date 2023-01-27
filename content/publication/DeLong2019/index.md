@@ -37,7 +37,6 @@ featured: false
 links:
   - icon_pack: ai
   icon: springer
-  name: Read article
   url: 'https://link.springer.com/article/10.3758/s13420-018-0346-x'
 
 # Associated Projects (optional).

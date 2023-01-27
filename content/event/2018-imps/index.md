@@ -34,31 +34,40 @@ featured: false
 #   E.g. `projects: ["deep-learning"]` references
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- topic-model
+projects: ["topic-model"]
 
 tags:
-- topic model
 - Bayesian
 - text mining
+- topic model
 
 url_pdf: https://www.psychometricsociety.org/sites/main/files/file-attachments/imps_2018_final_program_f.pdf
-url_slides: ""
-url_video: ""
-url_code: ""
 
 math: false
 
-# Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "htmm-dag.png"
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  caption: "Directed acyclic graph of the HTMM model."
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: htmm-dag.png  # Uncomment to load an image from `assets/media/` instead.
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# image:
-#   caption: "Directed acyclic graph of the Hidden Topic Markov Model."
-#   focal_point: "Smart" # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Show recommendations for related content?
+show_related: true
+
+# Show breadcrumb navigation?
+show_breadcrumb: true
+
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
 ---
-
-{{< figure library="true" src="htmm-dag.png" title="Directed acyclic graph of the Hidden Topic Markov Model." >}}
