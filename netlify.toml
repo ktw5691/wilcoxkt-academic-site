@@ -44,7 +44,8 @@ package = "netlify-plugin-checklinks"
   # Report on all broken links to external pages.
   # Enabling this will make your tests more brittle, since you can't control
   # external pages.
-  checkExternal = true
+  # checkExternal = true # Enable when I really want to check for dead links
+  checkExternal = false  # Enable otherwise
 
   # Enable to check references to source maps, source map sources etc.
   # Many build tools don't emit working references, so this is disabled by default
