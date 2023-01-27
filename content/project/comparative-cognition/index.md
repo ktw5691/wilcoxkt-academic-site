@@ -5,40 +5,37 @@ tags:
 - comparative cognition
 - perception
 - dolphins
-- penguins
 - goldfish
+- penguins
+
 date: "2015-02-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://www.rit.edu/delonglab/
 
-# # Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "otter.jpg"
-
-# To use, add an image named `featured.jpg/png` to your project's folder.
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  caption: ""
-  focal_point: Smart # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  placement: 1
+  # caption: "Photo by [Geo](https://github.com/gcushen/)"
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: otter.jpg  # Uncomment to load an image from `assets/media/` instead.
 
-links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: Follow
-#   url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+# Show recommendations for related content?
+show_related: true
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# Show breadcrumb navigation?
+show_breadcrumb: true
 
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
 ---
-
-{{< figure library="true" src="otter.jpg" title="" >}}

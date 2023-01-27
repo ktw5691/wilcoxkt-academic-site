@@ -16,7 +16,7 @@ publishDate: "2019-03-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: "2"
 
 # Publication name and optional abbreviated publication name.
 publication: "*Learning & Behavior*, *47*(1), 91--104"
@@ -34,17 +34,11 @@ tags:
 - Lontra canadensis
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+  - icon_pack: ai
+  icon: springer
+  name: Read article
+  url: 'https://link.springer.com/article/10.3758/s13420-018-0346-x'
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -53,25 +47,29 @@ url_video: ''
 #   Otherwise, set `projects: []`.
 projects: ["comparative-cognition"]
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+# Cover image
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Otherwise, specify the `filename` option to load an image from your `assets/media/` folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
+image:
+  placement: 1
+  # caption: "Photo by [Geo](https://github.com/gcushen/)"
+  focal_point: "Smart"
+  preview_only: false
+  # alt_text: An optional description of the image for screen readers.
+  filename: otter.jpg  # Uncomment to load an image from `assets/media/` instead.
 
-# Optional header image (relative to `assets/media/` folder)
-# header:
-#   caption:
-#   image: "otter.jpg"
+# Show recommendations for related content?
+show_related: true
 
+# Show breadcrumb navigation?
+show_breadcrumb: true
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: ""
-#   focal_point: "Smart" # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-#   preview_only: false
+# Hide the navigation bar?
+# Often used together with `show_breadcrumb`
+header:
+  navbar:
+    enable: false
 ---
-
-{{< figure library="true" src="otter.jpg" title="" >}}
