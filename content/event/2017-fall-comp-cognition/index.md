@@ -1,7 +1,7 @@
 ---
 title: Visual discrimination of rotated 2D objects in a bottlenose dolphin (Tursiops truncatus) and goldfish (Carassius auratus)
 event: Fall Meeting of the Comparative Cognition Society 2017
-event_url: http://www.comparativecognition.org/
+event_url: https://www.comparativecognition.org/
 location: Vancouver Convention Center West
 address:
   street:
@@ -44,7 +44,7 @@ tags:
 
 math: false
 
-url_pdf: http://www.comparativecognition.org/fallmeeting/fall2017program.pdf
+url_pdf: https://www.comparativecognition.org/fallmeeting/fall2017program.pdf
 url_slides:
 url_video:
 url_code:

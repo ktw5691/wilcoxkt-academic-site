@@ -1,7 +1,7 @@
 ---
 title: Visual perception of rotated 2D color representations of familiar 3D objects in goldfish (Carassius auratus)
 event: 26th Annual International Conference on Comparative Cognition
-event_url: http://www.comparativecognition.org/conference.php
+event_url: https://www.comparativecognition.org/conference.php
 location: Radisson Hotel
 address:
   street:

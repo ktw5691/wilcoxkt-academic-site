@@ -11,7 +11,7 @@ role: Postdoctoral Associate
 # Organizations/Affiliations
 organizations:
 - name: Department of Psychology, Cornell University
-  url: 'http://psychology.cornell.edu/'
+  url: 'https://psychology.cornell.edu/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Bayesian statistics, multilevel modeling, integrative data analysis, meta-analysis, topic modeling, mixture modeling, statistical programming, and cognition and clinical psychology.
@@ -51,10 +51,10 @@ social:
   link: 'https://orcid.org/0000-0003-3969-0427'
 - icon: google-scholar
   icon_pack: ai
-  link: 'https://scholar.google.com/citations?user=GllwRa8AAAAJ&hl'
+  link: 'https://scholar.google.com/citations?user=zEL8yZEAAAAJ'
 - icon: researchgate
   icon_pack: fab
-  link: 'https://www.researchgate.net/profile/Kenneth_Wilcox'
+  link: 'https://www.researchgate.net/profile/Kenneth-Wilcox'
 - icon: github
   icon_pack: fab
   link: 'https://github.com/ktw5691'

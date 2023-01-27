@@ -97,7 +97,7 @@ We assume a vocabulary of V unique words and let $\bar{z}_{kd} = N_d^{-1} \sum\_
 - 4.3) Draw outcome $y_d \sim \text{Normal} \left(\sum\_{j=1}^p \eta_j x\_{jd} + \sum\_{k=1}^K \eta\_{p+k} \bar{z}\_{kd}, \sigma^2 \right)$.
 
 # References
-Blei, D. M., & McAuliffe, J. D. (2010). Supervised topic models. *ArXiv:1003.0783 [Stat]*. Retrieved from http://arxiv.org/abs/1003.0783
+Blei, D. M., & McAuliffe, J. D. (2010). Supervised topic models. *ArXiv:1003.0783 [Stat]*. Retrieved from https://arxiv.org/abs/1003.0783
 
 Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet Allocation. *Journal of Machine Learning Research*, *3*, 993–1022. https://doi.org/10.1162/jmlr.2003.3.4-5.993
 

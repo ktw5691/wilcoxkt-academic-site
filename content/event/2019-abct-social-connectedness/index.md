@@ -1,7 +1,7 @@
 ---
 title: A nuanced examination of the relationship between social connectedness and suicidal ideation
 event: 53rd Annual Convention for the Association for Behavioral and Cognitive Therapies
-event_url: http://www.abct.org/conv2019/
+event_url: https://conventionarchives.abct.org/conv2019/
 
 location:
 address:
@@ -44,7 +44,7 @@ image:
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: http://www.abct.org/conv2019/docs/Program_Book.pdf
+url_pdf: https://www.abct.org/wp-content/uploads/2021/05/2019_Program_Book.pdf
 url_slides: ""
 url_video: ""
 

@@ -35,9 +35,6 @@ tags:
 - rhythm perception
 featured: false
 
-# links:
-# - name: Custom Link
-#   url: http://example.org
 url_pdf: "https://asa.scitation.org/doi/pdf/10.1121/2.0000773?class=pdf"
 
 # Associated Projects (optional).

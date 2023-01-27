@@ -36,7 +36,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://scholarworks.rit.edu/theses/9443/
+url_pdf: https://scholarworks.rit.edu/theses/9443/
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

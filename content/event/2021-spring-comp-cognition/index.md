@@ -1,7 +1,7 @@
 ---
 title: Long-term object recognition memory in goldfish (Carassius auratus)
 event: 28th Annual International Conference on Comparative Cognition
-event_url: http://www.comparativecognition.org/conference.php
+event_url: https://www.comparativecognition.org/conference.php
 
 location: Virtual conference
 address:

@@ -45,11 +45,11 @@ contact_links:
   - icon: google-scholar
     icon_pack: ai
     name: Google Scholar
-    link: 'https://scholar.google.com/citations?user=GllwRa8AAAAJ&hl'
+    link: 'https://scholar.google.com/citations?user=zEL8yZEAAAAJ'
   - icon: researchgate
     icon_pack: fab
     name: ResearchGate
-    link: 'https://www.researchgate.net/profile/Kenneth_Wilcox'
+    link: 'https://www.researchgate.net/profile/Kenneth-Wilcox'
   - icon: github
     icon_pack: fab
     name: Github

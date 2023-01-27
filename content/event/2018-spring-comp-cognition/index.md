@@ -1,7 +1,7 @@
 ---
 title: Visual discrimination of rotated 3D objects in goldfish (Carassius auratus)
 event: 25th Annual International Conference on Comparative Cognition
-event_url: http://www.comparativecognition.org/conference.php
+event_url: https://www.comparativecognition.org/conference.php
 location: Radisson Hotel
 address:
   street:

@@ -1,7 +1,7 @@
 ---
 title: Visual object categorization in goldfish (Carassius auratus)
 event: 27th Annual International Conference on Comparative Cognition
-event_url: http://www.comparativecognition.org/conference.php
+event_url: https://www.comparativecognition.org/conference.php
 
 location: Radisson Hotel Oceanfront
 address:
