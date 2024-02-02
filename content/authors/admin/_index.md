@@ -6,15 +6,15 @@ title: Kenneth Tyler Wilcox
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Associate
+role: Statistical Consultant
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Psychology, Cornell University
-  url: 'https://psychology.cornell.edu/'
+- name: Cornell Statistical Consulting Unit, Cornell University
+  url: 'https://cscu.cornell.edu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Bayesian statistics, multilevel modeling, integrative data analysis, meta-analysis, topic modeling, mixture modeling, statistical programming, and cognition and clinical psychology.
+bio: My research interests include integrative data analysis, meta-analysis, topic modeling, Bayesian statistics, multilevel modeling, statistical programming, and psychology.
 
 # Interests to show in About widget
 interests:
@@ -76,4 +76,4 @@ email: ktwilcox@cornell.edu
 highlight_name: true
 ---
 
-Kenneth is a postdoctoral associate in the Department of Psychology and the Center for Integrative Developmental Science at Cornell University. He received his Ph.D. in Quantitative Psychology at the University of Notre Dame. His research is currently focused in two streams: integrative data analysis and text mining. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing psychological and health research. He currently works with Dr. Anthony Ong in the [Center for Integrative Developmental Science](https://www.human.cornell.edu/cids) studying affective mechanisms to improve health outcomes across the lifespan.
+Tyler is a Statistical Consultant at the [Cornell Statistical Consulting Unit](https://cscu.cornell.edu) at Cornell University. He completed a postdoc in the Department of Psychology and the [Center for Integrative Developmental Science](https://www.human.cornell.edu/cids) at Cornell University with Anthony Ong. He received his Ph.D. in Quantitative Psychology at the University of Notre Dame. He has contributed to quantitative methods research for integrative data analysis and text mining and substantive research in psychology and clinical trials. He is generally interested in Bayesian statistics, multilevel modeling, topic modeling, statistical software development, and their application to advancing psychological and health research.
